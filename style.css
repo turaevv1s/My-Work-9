@@ -1,0 +1,201 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.background {
+  background: url(./img/BG.jpg) no-repeat center / cover;
+  height: fit-content;
+}
+
+/* card-1 start */
+.card-1 {
+  padding: 50px;
+}
+
+.invite-people {
+  background: cornsilk;
+  padding: 50px;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+.invite-people .text-1 {
+  padding-bottom: 20px;
+}
+
+.invite-people .text-1 h2 {
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.invite-people .text-1 p {
+  font-weight: 600;
+}
+
+.invite-people .button {
+  padding: 30px;
+}
+
+.invite-people .button button {
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: none;
+  background: rgb(211, 230, 227);
+}
+
+.invite-people .link {
+  padding-bottom: 30px;
+}
+
+.invite-people .link h2 {
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+.invite-people .link input {
+  padding: 5px 20px;
+  width: 300px;
+  border: none;
+}
+
+.invite-people .link button {
+  padding: 10px 20px;
+  background: rgb(147, 58, 221);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.invite-people p {
+  font-size: 14px;
+}
+/* card-1 end */
+
+/* card-2 start */
+.card-2 {
+  padding: 50px;
+}
+
+.invite-team {
+  background: cornsilk;
+  padding: 50px;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+.invite-team .options {
+  display: flex;
+}
+
+.invite-team h2 {
+  padding-bottom: 20px;
+}
+
+.invite-team .options .left {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+}
+
+.invite-team .options .left h5 {
+  padding-bottom: 20px;
+}
+
+.invite-team .options .right h5 {
+  padding-bottom: 20px;
+}
+
+.invite-team .options .left input {
+  padding: 5px 20px;
+  width: 200px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.invite-team .options .left button {
+  padding: 10px 20px;
+  background: rgb(147, 58, 221);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: fit-content;
+  margin-top: 30px;
+}
+
+.invite-team .options .right .a {
+  display: flex;
+}
+
+.invite-team .options .right p {
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+/* card-2 end */
+
+/* card-3 start */
+.card-3 {
+  padding: 50px;
+}
+
+.invite-board {
+  background: cornsilk;
+  padding: 50px;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+.invite-board h1 {
+  padding-bottom: 20px;
+}
+
+.invite-board input {
+  padding: 5px 20px;
+  width: 200px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.invite-board h5 {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.invite-board p {
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+.invite-board button {
+  padding: 10px 20px;
+  background: rgb(147, 58, 221);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: fit-content;
+  margin-top: 30px;
+}
+
+/* card-3 end */
